@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GestionUsuarioBibliotecaForm">
+  <grid id="27dc6" binding="PanelBibliotecario" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="622"/>
+    </constraints>
+    <properties>
+      <background color="-11993070"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="c4443" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="77e4b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Rockwell Extra Bold" size="16"/>
+              <foreground color="-11993070"/>
+              <text value="Gestion de Bibliotecarios"/>
+            </properties>
+          </component>
+          <grid id="bf112" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="2fb95" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="8d997" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="99bf5" class="javax.swing.JLabel" binding="lblNombre">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Bodoni MT" size="14"/>
+                          <foreground color="-11993070"/>
+                          <text value="Nombre del Usuario:"/>
+                        </properties>
+                      </component>
+                      <component id="7d970" class="javax.swing.JLabel" binding="lblID">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Bodoni MT" size="14"/>
+                          <foreground color="-11993070"/>
+                          <text value="ID del Usuario:"/>
+                        </properties>
+                      </component>
+                      <component id="764da" class="javax.swing.JLabel" binding="lblCorreo">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Bodoni MT" size="14"/>
+                          <foreground color="-11993070"/>
+                          <text value="Correo del Usuario:"/>
+                        </properties>
+                      </component>
+                      <component id="ddb43" class="javax.swing.JLabel" binding="lblContrasena">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Bodoni MT" size="14"/>
+                          <foreground color="-11993070"/>
+                          <text value="Contraseña:"/>
+                        </properties>
+                      </component>
+                      <component id="3fe3f" class="javax.swing.JLabel" binding="lblTelefono">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Bodoni MT" size="14"/>
+                          <foreground color="-11993070"/>
+                          <text value="Telefono:"/>
+                        </properties>
+                      </component>
+                      <component id="82fa8" class="javax.swing.JLabel" binding="lblDireccion">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Bodoni MT" size="14"/>
+                          <foreground color="-11993070"/>
+                          <text value="Direccion:"/>
+                        </properties>
+                      </component>
+                      <component id="9bf70" class="javax.swing.JLabel" binding="lblHorarioLaboral">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Bodoni MT" size="14"/>
+                          <foreground color="-11993070"/>
+                          <text value="Horario Laboral:"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="eca2b" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="56138" class="javax.swing.JTextField" binding="txtNombre">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="DialogInput"/>
+                          <foreground color="-16777216"/>
+                        </properties>
+                      </component>
+                      <component id="2d5ea" class="javax.swing.JTextField" binding="txtID">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="DialogInput"/>
+                          <foreground color="-16777216"/>
+                        </properties>
+                      </component>
+                      <component id="131d9" class="javax.swing.JTextField" binding="txtCorreo">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="DialogInput"/>
+                          <foreground color="-16777216"/>
+                        </properties>
+                      </component>
+                      <component id="c3460" class="javax.swing.JPasswordField" binding="txtClave">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="DialogInput"/>
+                          <foreground color="-16777216"/>
+                        </properties>
+                      </component>
+                      <component id="1266f" class="javax.swing.JTextField" binding="txtTelefono">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="DialogInput"/>
+                          <foreground color="-16777216"/>
+                        </properties>
+                      </component>
+                      <component id="e9fa" class="javax.swing.JTextField" binding="txtDireccion">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="DialogInput"/>
+                          <foreground color="-16777216"/>
+                        </properties>
+                      </component>
+                      <component id="80959" class="javax.swing.JTextField" binding="txtHorarioLaboral">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="5025f" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="dd0b9" class="javax.swing.JButton" binding="btnAgregar">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-11993070"/>
+                      <font name="Droid Serif"/>
+                      <foreground color="-1"/>
+                      <text value="Agregar Bibliotecario"/>
+                    </properties>
+                  </component>
+                  <component id="b57e4" class="javax.swing.JButton" binding="btnActualizar">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-11993070"/>
+                      <font name="Droid Serif"/>
+                      <foreground color="-1"/>
+                      <text value="Actualizar Bibliotecario"/>
+                    </properties>
+                  </component>
+                  <component id="37b8d" class="javax.swing.JButton" binding="btnEliminar">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-11993070"/>
+                      <font name="Droid Serif"/>
+                      <foreground color="-1"/>
+                      <text value="Eliminar Bibliotecario"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="660bd" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8fb28" class="javax.swing.JTextField" binding="txtBuscar">
+                    <constraints/>
+                    <properties>
+                      <font name="Courier New"/>
+                      <text value="BuscarUsuarioID"/>
+                    </properties>
+                  </component>
+                  <component id="a69ce" class="javax.swing.JButton" binding="btnBuscar">
+                    <constraints/>
+                    <properties>
+                      <background color="-11993070"/>
+                      <font name="Droid Serif"/>
+                      <foreground color="-1"/>
+                      <text value="Buscar Bibliotecario"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="5efb9">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="9d5a1" class="javax.swing.JTable" binding="tableUsuarios">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <font name="Courier New"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
